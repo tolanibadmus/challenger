@@ -58,4 +58,9 @@ public class ChallengeController {
     ) {
         return challengeService.getLeaderBoard(challengeId);
     }
+
+    @GetMapping()
+    public List<Challenge> getChallenges() {
+        return challengeService.getChallenges();
+    }
 }

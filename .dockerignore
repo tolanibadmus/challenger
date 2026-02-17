@@ -1,0 +1,11 @@
+target/
+.mvn/
+.git/
+.gitignore
+*.iml
+.idea/
+.env
+*.log
+.DS_Store
+Thumbs.db
+src/main/resources/application.yaml

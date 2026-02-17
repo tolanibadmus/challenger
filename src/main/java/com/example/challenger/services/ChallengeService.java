@@ -150,4 +150,8 @@ public class ChallengeService {
 
         return rankedList;
     }
+
+    public List<Challenge> getChallenges() {
+        return challengeRepo.findAll();
+    }
 }

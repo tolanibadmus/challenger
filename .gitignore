@@ -34,3 +34,5 @@ build/
 
 # Ignore Spring Boot application config with secrets
 src/main/resources/application.yaml
+
+.env
